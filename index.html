@@ -5,8 +5,174 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Welcome</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="assets/style/main.css" type="text/css">
+
 </head>
 <body>
-  <p>hi</p>
+  <header class="container-fuild" id="top">
+    <div class="the-navigation">
+      <nav class="d-flex justify-content-between">
+        <a href="index.html" class="logo"><i class="fas fa-feather-alt"></i> LOGO</a>
+        <div class="navigation-lg">
+          <a href="#top" class="text-white">Home</a>
+          <a href="#blogs" class="text-white">Blogs</a>
+          <a href="#deals" class="text-white">Deals</a>
+          <a href="#contact" class="text-white">Contact</a>
+        </div>
+        <div class="control">
+          <div class="bar" id="bar-1"></div>
+          <div class="bar" id="bar-2"></div>
+          <div class="bar" id="bar-3"></div>
+        </div>
+      </nav>
+    </div>
+    <div class="navigation-sm">
+      <div class="nav-box">
+        <div class="bg-color"></div>
+        <a href="#top">Home</a>
+      </div>
+      <div class="nav-box">
+        <div class="bg-color"></div>
+        <a href="#blogs">Blogs</a>
+      </div>
+      <div class="nav-box">
+        <div class="bg-color"></div>
+        <a href="#deals">Deals</a>
+      </div>
+      <div class="nav-box">
+        <div class="bg-color"></div>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="text-white text-center">Modern and Clean Newsletter Template for your Agency</h1>
+        <div class="text-center" id="go-down">
+          <a class="btn btn-lg" href="#introduction" role="button"><span><i class="fas fa-arrow-down"></i></span></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="intro d-flex" id="introduction">
+    <div class="ads text-center">
+      <p class="icon"><i class="far fa-lightbulb"></i></p>
+      <h3>Great Ideas</h3>
+      <p class="ads-content">Creative Mind on Action</p>
+    </div>
+    <div class="ads text-center">
+      <p class="icon"><i class="fas fa-tv"></i></p>
+      <h3>Advertise With Us</h3>
+      <p class="ads-content">We Are Big and Loud</p>
+    </div>
+    <div class="ads text-center">
+      <p class="icon"><i class="fas fa-plug"></i></p>
+      <h3>Work With Us</h3>
+      <p class="ads-content">Work is Our Second Name</p>
+    </div>
+  </section>
+  <section class="services d-flex">
+    <div class="details w-50">
+      <h3 class="entry">We offer modern and clean newsletter design</h3>
+      <ul>
+        <li>Responsive Design</li>
+        <li>Modern and Clean</li>
+        <li>Help File Included</li>
+      </ul>
+      <a href="#" class="btn btn-lg text-white">Learn More</a>
+    </div>
+    <div class="ser-image w-50"></div>
+  </section>
+  <section class="video text-center">
+    <h2 class="text-white">WATCH OUR VIDEO</h2>
+    <a href="#" class="btn btn-lg text-white">Play Now</a>
+  </section>
+  <section class="blog" id="blogs">
+    <h2 class="text-center">Some news from our blog</h2>
+    <p class="text-center text-white">Cras ultricies ligula sea.</p>
+    <div class="container d-flex justify-content-between flex-wrap">
+      <div class="blog-indi">
+        <img src="assets/images/news_1.jpg" alt="first" class="img-fluid">
+        <div class="blog-description">
+          <h3>Some Random Text</h3>
+          <p>Nulla quis lorem ut libero malesuada feugiat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar est name albis tinchodion.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+      <div class="blog-indi">
+        <img src="assets/images/news_2.jpg" alt="second" class="img-fluid">
+        <div class="blog-description">
+          <h3>Some Random Text</h3>
+          <p>Nulla quis lorem ut libero malesuada feugiat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar est name albis tinchodion.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+      <div class="blog-indi">
+        <img src="assets/images/news_3.jpg" alt="third" class="img-fluid">
+        <div class="blog-description">
+          <h3>Some Random Text</h3>
+          <p>Nulla quis lorem ut libero malesuada feugiat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar est name albis tinchodion.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+      <div class="blog-indi">
+        <img src="assets/images/news_4.jpg" alt="forth" class="img-fluid">
+        <div class="blog-description">
+          <h3>Some Random Text</h3>
+          <p>Nulla quis lorem ut libero malesuada feugiat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar est name albis tinchodion.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="load-more text-center">
+      <a href="#" class="btn btn-lg"><span><i class="fas fa-plus"></i></span></a>
+    </div>
+  </section>
+  <section class="deal text-center" id="deals">
+    <h2 class="text-white">Start your web agency for just $19</h2>
+    <p class="text-white">Cras ultricies ligula sed magna dictum parta.</p>
+    <div class="buttons">
+      <a href="#" class="btn btn-lg">Start Project</a>
+      <a href="#" class="btn btn-lg">Read More</a>
+    </div>
+  </section>
+  <section class="info" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="company-brief col-7">
+          <h4><i class="fas fa-feather-alt"></i> LOGO</h4>
+          <p class="w-75">Nulla quis lorem ut libero malesuada feugiat. Mauris <a href="#">blandit aliquet elit,</a> eget tincidunt nibh pulvinar est name albis tinchodion esto nih deos lous</p>
+        </div>
+        <div class="social col-5">
+          <div class="accounts">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+          <div class="connect">
+            <a href="#">www.brand.com</a>
+            <a href="#">contact@brand.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container d-flex justify-content-between">
+      <span class="text-white">&copy;2018 - Brand All Right Reserved</span>
+      <a href="#">Unsubscribe</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.scrollTo.min.js"></script>
+  <script src="assets/js/jquery.localScroll.min.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
